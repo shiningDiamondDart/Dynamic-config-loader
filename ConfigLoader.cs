@@ -60,7 +60,7 @@ namespace App
         //example call
 
         //values are loaded into settings, using the exampleConfig.json, parsing those value into properteis of exampleConfig class
-        exampleClass settings = LoadConfig<exampleClass>();
+        exampleConfig settings = LoadConfig<exampleConfig>();
 
     }
 
